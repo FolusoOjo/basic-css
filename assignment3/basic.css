@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#id1{
+    background-color: #28ABB9;
+    padding: 30px 30px 120px 30px;
+    font-family: 'Dancing Script', cursive;
+    /* height: 50vh; */
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+.container{
+    padding: 70px 50px 0 50px;
+}
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image{
+    height: 200px;
+    float: left;
+    margin-left: 120px;
+}
+
+.about{
+    height: 200px;
+    float: right;
+    line-height: 2;
+}
+.about h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: capitalize; 
+    font-weight: 800;
+}
+
+/* .about::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+/* #id1 h2{
+    padding-top: 70px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 2;
+}
+.height{
+    line-height: 2;
+} */
+/* .image{
+    float: left;
+    display: block;
+}
+.image1::after{
+    content: "";
+    clear: both;
+}
+.about{
+    float: right;
+}
+.about::after{
+    content: "";
+    clear: both;
+}
+#id1 p{
+    font-family: 'Source Serif Pro', serif;
+    line-height: 1.5;
+} */
+#id2{
+    padding: 40px;
+}
+#id2 h2{
+    color: #28ABB9;
+    font-size: 32px;
+    font-family: 'PT Sans', sans-serif;
+}
+#id2 h3{
+    padding: 18px;
+    font-size: 22px;
+    color: #28ABB9;
+    font-family: 'PT Sans', sans-serif;
+}
+#image2{
+    padding: 20px;
+}
+#image3{
+    padding: 20px;
+}
+#id3{
+    background-color: #acdbdb; 
+    padding: 45px; 
+    /* line-height: 2; */
+    border: 2px solid #7C99AC;
+    font-family: 'Montserrat', sans-serif;
+}
+#id3 h2{
+    color: #28ABB9;
+    padding: 20px;
+    font-size: 35px;
+}
+#id3 p{
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+}
+#id3 ul{
+    list-style-type: none;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+
+}
+#id4{
+    padding: 60px;
+}
+#id4 h2{
+    font-size: 35px;
+    color: #28ABB9;
+    font-family: 'PT Sans', sans-serif;
+}
+#id4 h3{
+    font-size: 20px;
+    color: #28ABB9;
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#name{
+    margin: 15px;
+}
+#email{
+    margin: 15px;
+}
+.left{
+    float: left;
+    width: 50%;
+    line-height: 2;
+}
+
+.left::after{
+    content: "";
+    clear: both;
+}
+.right{
+    width: 50%;
+    float: right;
+    line-height: 2;
+}
+.right::after{
+    content: "";
+    clear: both;
+}
+.comment{
+    margin: 15px;
+    line-height: 2;
+}
+#submit_button{
+    padding: 15px 20px;
+    color: white;
+    background-color: #28ABB9;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#id5{
+    background-color: #28ABB9;
+    padding: 20px 0;
+    line-height: 2;
+    margin-top: 40px;
+    font-size: 17px;
+}
+#linked{
+    color: blue;
+}
